@@ -23,8 +23,8 @@ function updateCars() {
   targetCar.src = targetCarSrc;
 }
 
-// currentColor.addEventListener('change', updateCars);
-// targetColor.addEventListener('change', updateCars);
+currentColor.addEventListener('change', updateCars);
+targetColor.addEventListener('change', updateCars);
 
 
 
