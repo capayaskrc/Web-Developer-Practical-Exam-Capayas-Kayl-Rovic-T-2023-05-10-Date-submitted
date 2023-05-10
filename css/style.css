@@ -1,0 +1,72 @@
+
+   .custom-navbar {
+    background-color: #eeeeee;
+    color: #000000;
+    width: auto;
+    height: 200px;
+  }
+  
+  
+  .custom-navbar h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .navbar-text {
+    color: #656565;
+  }
+  
+
+  .navbar-custom {
+    background-color: #ea6a5b;
+  }
+  
+  .navbar-custom .nav-link {
+    color: #ffffff;
+  }
+
+  .navbar-custom .nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+  .navbar-custom .nav-link.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+  .Shape_1 {
+    background-color: rgb(181, 181, 181);
+    position: absolute;
+    align-content: center;
+    left: 572px;
+    top: 370px;
+    width: 50px;
+    height: 42px;
+    z-index: 18;
+  }
+
+
+
+  .form-control {
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+  }
+
+  
+.card-header{
+    background-color: #ea6a5b; 
+    color: #fff;
+
+}
+
+
+img {
+  width: 400px;
+  height: auto;
+}
