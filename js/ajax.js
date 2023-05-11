@@ -1,5 +1,5 @@
 
-
+// GET SHOP PERFORMANCE
 function refreshShopPerformance() {
     $.ajax({
         url: 'get_shop_performance_data.php', // replace with the URL of your server-side script that returns the updated data
@@ -24,8 +24,8 @@ function refreshShopPerformance() {
   // call the function for the first time
   refreshShopPerformance();
 
-
-  function getPaintQueueData() {
+// GET PAINT QUEUE DATA
+function getPaintQueueData() {
   $.ajax({
     url: 'get_paint_queue_data.php',
     success: function(data) {
@@ -54,6 +54,8 @@ setInterval(getPaintQueueData, 5000);
 getPaintQueueData();
 
 
+
+// GET PAINT JOBS DATA
   // Define the function to fetch data and update the table
   function updatePaintJobsTable() {
     // Make an AJAX request to the PHP script that retrieves the data
@@ -76,25 +78,7 @@ getPaintQueueData();
           tr.append('<td>' + row.current_color + '</td>');
           tr.append('<td>' + row.target_color + '</td>');
           tr.append('<td>' + row.status + '</td>');
-
-          // Create a button to cancel the job and append it to the row
-          var cancelButton = $('<button>', {
-            class: 'btn btn-danger',
-            text: 'Cancel Job',
-            click: function() {
-              // Make an AJAX request to the PHP script that cancels the job
-              $.ajax({
-                url: 'cancel_paint_job.php',
-                type: 'POST',
-                data: {
-                  job_id: row.id
-                },
-                
-                
-              });
-            }
-          });
-        });
+        }); 
       },
       error: function() {
         alert('Error retrieving paint jobs data');

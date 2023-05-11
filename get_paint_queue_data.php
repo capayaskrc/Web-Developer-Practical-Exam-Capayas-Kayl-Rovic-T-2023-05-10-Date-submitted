@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 // Retrieve data from the database
-$sql = "SELECT plate_no, current_color, target_color FROM queue_paint";
+$sql = "SELECT plate_no, current_color, target_color FROM cars WHERE status = 'queued'";
 $result = $conn->query($sql);
 
 // Convert the result set to an array

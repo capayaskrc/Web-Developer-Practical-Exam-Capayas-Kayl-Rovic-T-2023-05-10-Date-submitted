@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 // Retrieve data from the database
-$sql = "SELECT * FROM cars";
+$sql = "SELECT * FROM cars WHERE status = 'mark as completed'";
 $result = $conn->query($sql);
 
 // Store data in an array
