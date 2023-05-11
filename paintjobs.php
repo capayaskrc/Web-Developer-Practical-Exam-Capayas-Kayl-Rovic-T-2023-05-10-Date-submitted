@@ -103,25 +103,23 @@
               <h6>Paint Queue</h6>
             </div>
           </div>
-        <div class="row">
-          <div class="col-md-9">
-                <table class="table table-bordered ">
-                    <thead class="thead-light">
-                      <tr>
-                        <th scope="col">Plate No.</th>
-                        <th scope="col">Current Color</th>
-                        <th scope="col" colspan="2">Target Color</th>
-                      
-                      </tr>
-                    </thead>
-                    <tbody id="paint-queue-table-body">
-                    </tbody>
-                  </table>
-            </table>
-          </div>
-
-
-          </div>
+          <div class="row">
+            <div class="col-md-9">
+                  <table class="table table-bordered ">
+                      <thead class="thead-light">
+                        <tr>
+                          <th scope="col">Plate No.</th>
+                          <th scope="col">Current Color</th>
+                          <th scope="col" colspan="2">Target Color</th>
+                        
+                        </tr>
+                      </thead>
+                      <tbody id="paint-queue-table-body">
+                      </tbody>
+                    </table>
+              </table>
+            </div>
+            </div>
         </div>
       </div>
       
